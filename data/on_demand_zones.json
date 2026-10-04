@@ -1,0 +1,25 @@
+{
+  "_note": "Development fixture: on-demand service areas. Replace with the operator's zones.",
+  "zones": [
+    {
+      "id": "goslar",
+      "name": "Goslar Stadt",
+      "lat": 51.905,
+      "lon": 10.43,
+      "radius_km": 5.0,
+      "wait_min": 8,
+      "speed_kmh": 28,
+      "provider": "Dev On-Demand"
+    },
+    {
+      "id": "harz_nord",
+      "name": "Harz Nord (pooled)",
+      "lat": 51.86,
+      "lon": 10.43,
+      "radius_km": 13.0,
+      "wait_min": 15,
+      "speed_kmh": 35,
+      "provider": "Dev On-Demand"
+    }
+  ]
+}

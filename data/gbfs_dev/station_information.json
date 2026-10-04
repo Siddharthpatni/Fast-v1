@@ -1,0 +1,44 @@
+{
+  "last_updated": 1790800000,
+  "ttl": 60,
+  "version": "2.3",
+  "data": {
+    "stations": [
+      {
+        "station_id": "st_gs_bf",
+        "name": "Goslar Bahnhof",
+        "lat": 51.9089,
+        "lon": 10.429,
+        "capacity": 12
+      },
+      {
+        "station_id": "st_gs_markt",
+        "name": "Goslar Marktplatz",
+        "lat": 51.9055,
+        "lon": 10.4299,
+        "capacity": 12
+      },
+      {
+        "station_id": "st_bh_bf",
+        "name": "Bad Harzburg Bahnhof",
+        "lat": 51.882,
+        "lon": 10.559,
+        "capacity": 12
+      },
+      {
+        "station_id": "st_cz_zob",
+        "name": "Clausthal ZOB",
+        "lat": 51.8101,
+        "lon": 10.338,
+        "capacity": 12
+      },
+      {
+        "station_id": "st_cz_uni",
+        "name": "TU Clausthal Campus",
+        "lat": 51.8047,
+        "lon": 10.3385,
+        "capacity": 12
+      }
+    ]
+  }
+}

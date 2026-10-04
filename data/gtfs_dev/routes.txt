@@ -1,0 +1,7 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color
+r830,DEV,830,Goslar – Hahnenklee – Clausthal-Zellerfeld,3,E3000F
+r810,DEV,810,Goslar – Oker – Bad Harzburg,3,0072BC
+r840,DEV,840,Bad Harzburg – Torfhaus – Altenau – Clausthal-Zellerfeld,3,00A651
+r11,DEV,11,Goslar Stadtverkehr,3,F39200
+rRE10,DEV,RE 10,Goslar – Vienenburg – Braunschweig,2,8C1D82
+rRB43,DEV,RB 43,Goslar – Langelsheim – Salzgitter-Bad,2,5F6B6D

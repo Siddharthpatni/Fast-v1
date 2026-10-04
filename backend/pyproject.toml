@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastmile-backend"
+version = "0.1.0"
+description = "FastMile — Unified Mobility Platform for LLM-Guided Routing"
+requires-python = ">=3.12"
+dependencies = [
+    # Web framework
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    # Database
+    "sqlalchemy[asyncio]>=2.0.30",
+    "asyncpg>=0.29.0",
+    "alembic>=1.13.0",
+    "geoalchemy2>=0.15.0",
+    # Redis
+    "redis[hiredis]>=5.0.0",
+    # HTTP client (for external APIs)
+    "httpx>=0.27.0",
+    # Settings
+    "pydantic-settings>=2.3.0",
+    # Geospatial
+    "shapely>=2.0.0",
+    # Data
+    "pandas>=2.2.0",
+    "numpy>=1.26.0",
+    # ML (capacity and on-demand wait models)
+    "scikit-learn>=1.5.0",
+    "joblib>=1.4.0",
+    # GTFS-Realtime (delays, cancellations, service alerts); realtime is on by default
+    "gtfs-realtime-bindings>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2.0",
+    "pytest-asyncio>=0.23.0",
+    "httpx>=0.27.0",
+    "ruff>=0.5.0",
+    "mypy>=1.10.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true

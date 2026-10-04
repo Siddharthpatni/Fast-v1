@@ -1,0 +1,16 @@
+stop_id,stop_name,stop_lat,stop_lon
+GS_BF,Goslar Bahnhof,51.9086,10.4283
+GS_MARKT,Goslar Marktplatz,51.9057,10.4295
+GS_RATHAUS,Goslar Rathaus,51.9062,10.4306
+GS_JAKOBI,Goslar Jakobikirchplatz,51.9071,10.4262
+OKER,Oker Bahnhof,51.9013,10.487
+BH_BF,Bad Harzburg Bahnhof,51.8817,10.5598
+TORF,Torfhaus,51.8008,10.5408
+ALT,Altenau Busbahnhof,51.8017,10.4458
+HK,Hahnenklee Kurhaus,51.8566,10.3398
+CZ_ZOB,Clausthal-Zellerfeld ZOB,51.8098,10.3376
+CZ_UNI,Clausthal Universität,51.8044,10.3378
+LANG,Langelsheim Bahnhof,51.9378,10.3336
+SZ_BAD,Salzgitter-Bad,52.048,10.373
+VIEN,Vienenburg Bahnhof,51.953,10.564
+BS_HBF,Braunschweig Hbf,52.2525,10.5397

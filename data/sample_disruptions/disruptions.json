@@ -1,0 +1,76 @@
+[
+  {
+    "text": "Wegen eines Unfalls auf der Strecke zwischen Goslar und Clausthal-Zellerfeld ist die Buslinie 830 seit 08:15 Uhr gesperrt. Voraussichtliche Dauer bis ca. 10:00 Uhr. Bitte nutzen Sie die alternative Verbindung über Bad Harzburg.",
+    "source": "VRB Betriebsmeldung",
+    "expected_severity": "high",
+    "expected_affected_lines": [
+      "830"
+    ],
+    "expected_affected_stops": [
+      "Goslar Bahnhof",
+      "Clausthal-Zellerfeld ZOB"
+    ],
+    "expected_effect": "suspended",
+    "expected_start": "08:15",
+    "expected_end": "10:00"
+  },
+  {
+    "text": "Due to a public event in the city center, bus lines 11, 12, and 15 will be rerouted from 14:00 to 22:00 today. Stops 'Marktplatz' and 'Rathaus' will not be served. Replacement stops are set up at 'Jakobikirchplatz'.",
+    "source": "Transit Alert Feed",
+    "expected_severity": "medium",
+    "expected_affected_lines": [
+      "11",
+      "12",
+      "15"
+    ],
+    "expected_affected_stops": [
+      "Marktplatz",
+      "Rathaus"
+    ],
+    "expected_effect": "stops_not_served",
+    "expected_start": "14:00",
+    "expected_end": "22:00"
+  },
+  {
+    "text": "Geringfügige Verzögerung von 3-5 Minuten auf der Linie S1 Richtung Hannover aufgrund erhöhten Fahrgastaufkommens. Kein Handlungsbedarf.",
+    "source": "S-Bahn Betriebslage",
+    "expected_severity": "low",
+    "expected_affected_lines": [
+      "S1"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "delayed",
+    "expected_start": null,
+    "expected_end": null
+  },
+  {
+    "text": "EILMELDUNG: Stromausfall im Stellwerk Braunschweig Hbf. Gesamter Zugverkehr im Knoten Braunschweig eingestellt. Betroffen: RE1, RE30, RB46, S1, S2. Schienenersatzverkehr wird eingerichtet. Dauer unbekannt.",
+    "source": "DB Störungsticker",
+    "expected_severity": "high",
+    "expected_affected_lines": [
+      "RE1",
+      "RE30",
+      "RB46",
+      "S1",
+      "S2"
+    ],
+    "expected_affected_stops": [
+      "Braunschweig Hbf"
+    ],
+    "expected_effect": "suspended",
+    "expected_start": null,
+    "expected_end": null
+  },
+  {
+    "text": "E-scooter fleet update: 15 vehicles temporarily unavailable in Zone B (University Campus) due to scheduled maintenance. Expected back online by 16:00.",
+    "source": "Micromobility Provider API",
+    "expected_severity": "low",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [
+      "Zone B - University Campus"
+    ],
+    "expected_effect": "reduced_availability",
+    "expected_start": null,
+    "expected_end": "16:00"
+  }
+]

@@ -1,0 +1,121 @@
+services:
+  # ── PostgreSQL + PostGIS ──
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: fastmile-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-fastmile}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-fastmile_dev}
+      POSTGRES_DB: ${POSTGRES_DB:-fastmile}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-fastmile}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ── Redis ──
+  redis:
+    image: redis:7-alpine
+    container_name: fastmile-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ── Backend (FastAPI) ──
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: fastmile-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-fastmile}:${POSTGRES_PASSWORD:-fastmile_dev}@db:5432/${POSTGRES_DB:-fastmile}
+      REDIS_URL: redis://redis:6379/0
+      DEBUG: ${DEBUG:-true}
+      LOG_LEVEL: ${LOG_LEVEL:-info}
+      LLM_PROVIDER: ${LLM_PROVIDER:-ollama}
+      LLM_MODEL: ${LLM_MODEL:-}
+      LLM_PAID_MODEL: ${LLM_PAID_MODEL:-}
+      LLM_PAID_DAILY_LIMIT: ${LLM_PAID_DAILY_LIMIT:-200}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      JEV_API_KEY: ${JEV_API_KEY:-}
+      JEV_MODEL: ${JEV_MODEL:-jev-latest}
+      # Provider data (defaults: dev fixtures in ./data, mounted at /data)
+      GTFS_PATH: ${GTFS_PATH:-/data/gtfs_dev}
+      GTFS_RT_URL: ${GTFS_RT_URL:-}
+      GTFS_RT_REFRESH_SECONDS: ${GTFS_RT_REFRESH_SECONDS:-300}
+      GBFS_FEEDS: ${GBFS_FEEDS:-/data/gbfs_dev}
+      ON_DEMAND_ZONES_PATH: ${ON_DEMAND_ZONES_PATH:-/data/on_demand_zones.json}
+      STREET_ROUTING: ${STREET_ROUTING:-osrm}
+      GEOCODER_URL: ${GEOCODER_URL:-https://photon.komoot.io/api/}
+      RATE_LIMIT_ENABLED: ${RATE_LIMIT_ENABLED:-true}
+      STREET_ROUTING_URL: ${STREET_ROUTING_URL:-https://routing.openstreetmap.de/routed-{profile}}
+      TRANSITOUS_URL: ${TRANSITOUS_URL-https://api.transitous.org}
+      # Site operator for the Impressum and privacy notice (not secrets)
+      OPERATOR_NAME: ${OPERATOR_NAME:-}
+      OPERATOR_ADDRESS: ${OPERATOR_ADDRESS:-}
+      OPERATOR_EMAIL: ${OPERATOR_EMAIL:-}
+      OPERATOR_PHONE: ${OPERATOR_PHONE:-}
+    volumes:
+      - ./backend/app:/app/app
+      - ./backend/tests:/app/tests
+      - ./backend/scripts:/app/scripts
+      - ./backend/alembic:/app/alembic
+      - ./backend/alembic.ini:/app/alembic.ini
+      - ./data:/data
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  # ── Frontend (React + Vite) ──
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: fastmile-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    environment:
+      # The browser calls /api on the frontend's origin; Vite forwards it inside the network
+      API_PROXY_TARGET: http://backend:8000
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/public:/app/public
+    depends_on:
+      - backend
+
+  # ── End-to-end tests (headless Chromium): `make e2e` ──
+  e2e:
+    image: mcr.microsoft.com/playwright/python:v1.63.0-noble
+    profiles: ["e2e"]
+    working_dir: /e2e
+    environment:
+      BASE_URL: http://frontend:5173
+    volumes:
+      - ./e2e:/e2e
+    depends_on:
+      - frontend
+    # The image ships the browsers; the Python package must match their version
+    command: >-
+      sh -c "pip install -q --disable-pip-version-check --root-user-action=ignore
+      playwright==1.63.0 'pytest==8.*' && timeout 600 pytest -q -p no:cacheprovider"
+
+volumes:
+  pgdata:

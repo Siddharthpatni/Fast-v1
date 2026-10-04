@@ -1,0 +1,2431 @@
+{
+  "systems": [
+    {
+      "system": "deepseek/deepseek-v4-flash",
+      "reports": 30,
+      "quota_exhausted": false,
+      "success_ratio": 1.0,
+      "fully_correct": 0.767,
+      "lines": {
+        "precision": 0.929,
+        "recall": 0.963,
+        "f1": 0.945
+      },
+      "stops": {
+        "precision": 0.913,
+        "recall": 0.955,
+        "f1": 0.933
+      },
+      "effect_acc": 0.9,
+      "time_acc": 0.967,
+      "latency_p50_s": 7.9,
+      "cases": [
+        {
+          "text": "Die Buslinie 810 zwischen Goslar Bahnhof und Bad Harzburg Bahnhof fäll",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "810"
+          ],
+          "stops": [
+            "Goslar Bahnhof",
+            "Bad Harzburg Bahnhof"
+          ],
+          "times": [
+            "06:00",
+            "09:30"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Linie 840: Aufgrund von Schneeglätte entfallen alle Fahrten zwischen T",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "840"
+          ],
+          "stops": [
+            "Torfhaus",
+            "Altenau Busbahnhof"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "RE 10 Goslar – Braunschweig: Verspätungen von bis zu 20 Minuten wegen ",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "delayed",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Due to construction work, the stop 'Goslar Rathaus' will not be served",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "stops_not_served",
+          "lines": [
+            "11"
+          ],
+          "stops": [
+            "Goslar Rathaus"
+          ],
+          "times": [
+            "08:00",
+            "17:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Bahnhof Langelsheim ist wegen eines Polizeieinsatzes ab sofort gesperr",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "station_closed",
+          "lines": [
+            "RB43"
+          ],
+          "stops": [
+            "Langelsheim"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Streik bei der Regionalbus Braunschweig GmbH: Am Donnerstag verkehren ",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "810",
+            "830",
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Kurzfristiger Fahrzeugausfall: Die Fahrt der Linie 830 um 07:30 ab Gos",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [
+            "Goslar Bahnhof"
+          ],
+          "times": [
+            "07:30",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Nextbike Goslar: Wegen eines Softwareupdates können zwischen 22:00 und",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "reduced_availability",
+          "lines": [
+            "Nextbike Goslar"
+          ],
+          "stops": [],
+          "times": [
+            "22:00",
+            "23:30"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "The on-demand shuttle in the Harz Nord zone is fully booked until 09:0",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            "09:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "S1 Richtung Hannover: Wegen eines Notarzteinsatzes am Gleis halten die",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "stops_not_served",
+          "lines": [
+            "S1"
+          ],
+          "stops": [
+            "Braunschweig Hbf"
+          ],
+          "times": [
+            "10:15",
+            "11:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Bus 11 wird wegen des Altstadtfestes vom 12.06. bis 14.06. umgeleitet.",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "stops_not_served",
+          "lines": [
+            "11"
+          ],
+          "stops": [
+            "Goslar Marktplatz",
+            "Goslar Jakobikirchplatz"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Linie 830: Aufgrund hohen Verkehrsaufkommens kommt es derzeit zu Versp",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Achtung: Ab 21:00 Uhr bis Betriebsschluss ersetzen Busse die RB 43 zwi",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "RB 43"
+          ],
+          "stops": [
+            "Goslar",
+            "Salzgitter-Bad"
+          ],
+          "times": [
+            "21:00",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Wegen Bauarbeiten an der Brücke in Oker ist die Haltestelle Oker Bahnh",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "stops_not_served",
+          "lines": [
+            "810"
+          ],
+          "stops": [
+            "Oker Bahnhof"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Störung behoben: Die Linie 840 verkehrt wieder planmäßig.",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Aufzug am Gleis 2 in Goslar Bahnhof außer Betrieb bis 30.11.",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Unwetterwarnung: Der gesamte Busverkehr im Landkreis Goslar wird ab 16",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "16:00",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "RE 10: Zug 7:42 ab Vienenburg fällt aus. Nächste Verbindung 8:42.",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [
+            "Vienenburg"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 810 und 830: Wegen einer Demonstration in der Goslarer Innenstad",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "stops_not_served",
+          "lines": [
+            "810",
+            "830"
+          ],
+          "stops": [
+            "Goslar Marktplatz"
+          ],
+          "times": [
+            "13:00",
+            "15:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "E-Scooter: Aufgrund von Sturmböen sind alle Tier-Scooter in Clausthal-",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "18:00",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Clausthal-Zellerfeld ZOB: Wegen einer Bombenentschärfung wird der ZOB ",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Clausthal-Zellerfeld ZOB"
+          ],
+          "times": [
+            "09:00",
+            "12:30"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Line 830 is running with a 15-minute delay because of a broken-down ve",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Wegen Gleisarbeiten verkehrt die RB 43 am Wochenende nur zwischen Gosl",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "stops_not_served",
+          "lines": [
+            "RB 43"
+          ],
+          "stops": [
+            "Salzgitter-Bad"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bitte beachten: Die Haltestelle Hahnenklee Kurhaus wird dauerhaft verl",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Hahnenklee Kurhaus"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Massive Verspätungen im Knoten Braunschweig: RE1, RE30 und S2 bis zu 4",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "delayed",
+          "lines": [
+            "RE1",
+            "RE30",
+            "S2"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Die Buslinie 840 fährt heute ab 19:30 Uhr nicht mehr bis Torfhaus, son",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "stops_not_served",
+          "lines": [
+            "840"
+          ],
+          "stops": [
+            "Torfhaus"
+          ],
+          "times": [
+            "19:30",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Train RE 10 cancelled between Vienenburg and Braunschweig Hbf from 05:",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [
+            "Vienenburg",
+            "Braunschweig Hbf"
+          ],
+          "times": [
+            "05:00",
+            "07:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Kein Handlungsbedarf: Linie 11 verkehrt wegen Personalmangels heute im",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "other",
+          "lines": [
+            "11"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Rufbus Goslar: Wegen hoher Nachfrage sind aktuell keine Buchungen mögl",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "Rufbus Goslar"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Gesperrt: Linie 830 zwischen Hahnenklee Kurhaus und Clausthal-Zellerfe",
+          "method": "llm",
+          "answered_by": "deepseek/deepseek-v4-flash",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [
+            "Hahnenklee Kurhaus",
+            "Clausthal-Zellerfeld ZOB"
+          ],
+          "times": [
+            "22:00",
+            "04:30"
+          ],
+          "fully_correct": true
+        }
+      ]
+    },
+    {
+      "system": "mistralai/mistral-small-24b-instruct-2501",
+      "reports": 30,
+      "quota_exhausted": false,
+      "success_ratio": 1.0,
+      "fully_correct": 0.667,
+      "lines": {
+        "precision": 0.964,
+        "recall": 1.0,
+        "f1": 0.982
+      },
+      "stops": {
+        "precision": 0.889,
+        "recall": 0.727,
+        "f1": 0.8
+      },
+      "effect_acc": 0.867,
+      "time_acc": 0.9,
+      "latency_p50_s": 2.1,
+      "cases": [
+        {
+          "text": "Die Buslinie 810 zwischen Goslar Bahnhof und Bad Harzburg Bahnhof fäll",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [
+            "810"
+          ],
+          "stops": [],
+          "times": [
+            "06:00",
+            "09:30"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 840: Aufgrund von Schneeglätte entfallen alle Fahrten zwischen T",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [
+            "840"
+          ],
+          "stops": [
+            "Torfhaus",
+            "Altenau Busbahnhof"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "RE 10 Goslar – Braunschweig: Verspätungen von bis zu 20 Minuten wegen ",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "delayed",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Due to construction work, the stop 'Goslar Rathaus' will not be served",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "stops_not_served",
+          "lines": [
+            "11"
+          ],
+          "stops": [
+            "Goslar Rathaus"
+          ],
+          "times": [
+            "08:00",
+            "17:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Bahnhof Langelsheim ist wegen eines Polizeieinsatzes ab sofort gesperr",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "station_closed",
+          "lines": [
+            "RB43"
+          ],
+          "stops": [
+            "Langelsheim"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Streik bei der Regionalbus Braunschweig GmbH: Am Donnerstag verkehren ",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [
+            "810",
+            "830",
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Kurzfristiger Fahrzeugausfall: Die Fahrt der Linie 830 um 07:30 ab Gos",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [
+            "Goslar Bahnhof"
+          ],
+          "times": [
+            "07:30",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Nextbike Goslar: Wegen eines Softwareupdates können zwischen 22:00 und",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "22:00",
+            "23:30"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "The on-demand shuttle in the Harz Nord zone is fully booked until 09:0",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            "09:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "S1 Richtung Hannover: Wegen eines Notarzteinsatzes am Gleis halten die",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "stops_not_served",
+          "lines": [
+            "S1"
+          ],
+          "stops": [
+            "Braunschweig Hbf"
+          ],
+          "times": [
+            "10:15",
+            "11:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Bus 11 wird wegen des Altstadtfestes vom 12.06. bis 14.06. umgeleitet.",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "stops_not_served",
+          "lines": [
+            "11"
+          ],
+          "stops": [
+            "Goslar Marktplatz",
+            "Goslar Jakobikirchplatz"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Linie 830: Aufgrund hohen Verkehrsaufkommens kommt es derzeit zu Versp",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Achtung: Ab 21:00 Uhr bis Betriebsschluss ersetzen Busse die RB 43 zwi",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "other",
+          "lines": [
+            "RB43"
+          ],
+          "stops": [],
+          "times": [
+            "21:00",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Wegen Bauarbeiten an der Brücke in Oker ist die Haltestelle Oker Bahnh",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "stops_not_served",
+          "lines": [
+            "810"
+          ],
+          "stops": [
+            "Oker Bahnhof"
+          ],
+          "times": [
+            "00:00",
+            "23:59"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Störung behoben: Die Linie 840 verkehrt wieder planmäßig.",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "other",
+          "lines": [
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Aufzug am Gleis 2 in Goslar Bahnhof außer Betrieb bis 30.11.",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Goslar Bahnhof"
+          ],
+          "times": [
+            null,
+            "23:59"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Unwetterwarnung: Der gesamte Busverkehr im Landkreis Goslar wird ab 16",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "16:00",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "RE 10: Zug 7:42 ab Vienenburg fällt aus. Nächste Verbindung 8:42.",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            "07:42",
+            "08:42"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 810 und 830: Wegen einer Demonstration in der Goslarer Innenstad",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "stops_not_served",
+          "lines": [
+            "810",
+            "830"
+          ],
+          "stops": [
+            "Goslar Marktplatz"
+          ],
+          "times": [
+            "13:00",
+            "15:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "E-Scooter: Aufgrund von Sturmböen sind alle Tier-Scooter in Clausthal-",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "18:00",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Clausthal-Zellerfeld ZOB: Wegen einer Bombenentschärfung wird der ZOB ",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Clausthal-Zellerfeld ZOB"
+          ],
+          "times": [
+            "09:00",
+            "12:30"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Line 830 is running with a 15-minute delay because of a broken-down ve",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Wegen Gleisarbeiten verkehrt die RB 43 am Wochenende nur zwischen Gosl",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [
+            "RB43"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bitte beachten: Die Haltestelle Hahnenklee Kurhaus wird dauerhaft verl",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Hahnenklee Kurhaus"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Massive Verspätungen im Knoten Braunschweig: RE1, RE30 und S2 bis zu 4",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "delayed",
+          "lines": [
+            "RE1",
+            "RE30",
+            "S2"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Die Buslinie 840 fährt heute ab 19:30 Uhr nicht mehr bis Torfhaus, son",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "stops_not_served",
+          "lines": [
+            "840"
+          ],
+          "stops": [
+            "Torfhaus"
+          ],
+          "times": [
+            "19:30",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Train RE 10 cancelled between Vienenburg and Braunschweig Hbf from 05:",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [
+            "Vienenburg",
+            "Braunschweig Hbf"
+          ],
+          "times": [
+            "05:00",
+            "07:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Kein Handlungsbedarf: Linie 11 verkehrt wegen Personalmangels heute im",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "reduced_availability",
+          "lines": [
+            "11"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Rufbus Goslar: Wegen hoher Nachfrage sind aktuell keine Buchungen mögl",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "reduced_availability",
+          "lines": [
+            "Rufbus Goslar"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Gesperrt: Linie 830 zwischen Hahnenklee Kurhaus und Clausthal-Zellerfe",
+          "method": "llm",
+          "answered_by": "mistralai/mistral-small-24b-instruct-2501",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [
+            "Hahnenklee Kurhaus",
+            "Clausthal-Zellerfeld ZOB"
+          ],
+          "times": [
+            "22:00",
+            "04:30"
+          ],
+          "fully_correct": true
+        }
+      ]
+    },
+    {
+      "system": "qwen/qwen3-30b-a3b-instruct-2507",
+      "reports": 30,
+      "quota_exhausted": false,
+      "success_ratio": 1.0,
+      "fully_correct": 0.567,
+      "lines": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "stops": {
+        "precision": 0.941,
+        "recall": 0.727,
+        "f1": 0.821
+      },
+      "effect_acc": 0.767,
+      "time_acc": 0.833,
+      "latency_p50_s": 2.6,
+      "cases": [
+        {
+          "text": "Die Buslinie 810 zwischen Goslar Bahnhof und Bad Harzburg Bahnhof fäll",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [
+            "810"
+          ],
+          "stops": [],
+          "times": [
+            "06:00",
+            "09:30"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 840: Aufgrund von Schneeglätte entfallen alle Fahrten zwischen T",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [
+            "840"
+          ],
+          "stops": [
+            "Torfhaus",
+            "Altenau Busbahnhof"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "RE 10 Goslar – Braunschweig: Verspätungen von bis zu 20 Minuten wegen ",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "delayed",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Due to construction work, the stop 'Goslar Rathaus' will not be served",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "stops_not_served",
+          "lines": [
+            "11"
+          ],
+          "stops": [
+            "Goslar Rathaus"
+          ],
+          "times": [
+            "08:00",
+            "17:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Bahnhof Langelsheim ist wegen eines Polizeieinsatzes ab sofort gesperr",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "stops_not_served",
+          "lines": [
+            "RB 43"
+          ],
+          "stops": [
+            "Langelsheim"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Streik bei der Regionalbus Braunschweig GmbH: Am Donnerstag verkehren ",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [
+            "810",
+            "830",
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Kurzfristiger Fahrzeugausfall: Die Fahrt der Linie 830 um 07:30 ab Gos",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            "07:30",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Nextbike Goslar: Wegen eines Softwareupdates können zwischen 22:00 und",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "22:00",
+            "23:30"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "The on-demand shuttle in the Harz Nord zone is fully booked until 09:0",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            "09:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "S1 Richtung Hannover: Wegen eines Notarzteinsatzes am Gleis halten die",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "stops_not_served",
+          "lines": [
+            "S1"
+          ],
+          "stops": [
+            "Braunschweig Hbf"
+          ],
+          "times": [
+            "10:15",
+            "11:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Bus 11 wird wegen des Altstadtfestes vom 12.06. bis 14.06. umgeleitet.",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "stops_not_served",
+          "lines": [
+            "11"
+          ],
+          "stops": [
+            "Goslar Marktplatz",
+            "Goslar Jakobikirchplatz"
+          ],
+          "times": [
+            "00:00",
+            "23:59"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 830: Aufgrund hohen Verkehrsaufkommens kommt es derzeit zu Versp",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Achtung: Ab 21:00 Uhr bis Betriebsschluss ersetzen Busse die RB 43 zwi",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [
+            "RB 43"
+          ],
+          "stops": [],
+          "times": [
+            "21:00",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Wegen Bauarbeiten an der Brücke in Oker ist die Haltestelle Oker Bahnh",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "stops_not_served",
+          "lines": [
+            "810"
+          ],
+          "stops": [
+            "Oker Bahnhof"
+          ],
+          "times": [
+            "00:00",
+            "18:00"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Störung behoben: Die Linie 840 verkehrt wieder planmäßig.",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "other",
+          "lines": [
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Aufzug am Gleis 2 in Goslar Bahnhof außer Betrieb bis 30.11.",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Goslar Bahnhof"
+          ],
+          "times": [
+            null,
+            "23:59"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Unwetterwarnung: Der gesamte Busverkehr im Landkreis Goslar wird ab 16",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "16:00",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "RE 10: Zug 7:42 ab Vienenburg fällt aus. Nächste Verbindung 8:42.",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 810 und 830: Wegen einer Demonstration in der Goslarer Innenstad",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "stops_not_served",
+          "lines": [
+            "810",
+            "830"
+          ],
+          "stops": [
+            "Goslar Marktplatz"
+          ],
+          "times": [
+            "13:00",
+            "15:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "E-Scooter: Aufgrund von Sturmböen sind alle Tier-Scooter in Clausthal-",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "18:00",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Clausthal-Zellerfeld ZOB: Wegen einer Bombenentschärfung wird der ZOB ",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Clausthal-Zellerfeld ZOB"
+          ],
+          "times": [
+            "09:00",
+            "12:30"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Line 830 is running with a 15-minute delay because of a broken-down ve",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Wegen Gleisarbeiten verkehrt die RB 43 am Wochenende nur zwischen Gosl",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "stops_not_served",
+          "lines": [
+            "RB 43"
+          ],
+          "stops": [
+            "Langelsheim",
+            "Salzgitter-Bad"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bitte beachten: Die Haltestelle Hahnenklee Kurhaus wird dauerhaft verl",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Hahnenklee Kurhaus"
+          ],
+          "times": [
+            "00:00",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Massive Verspätungen im Knoten Braunschweig: RE1, RE30 und S2 bis zu 4",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "delayed",
+          "lines": [
+            "RE1",
+            "RE30",
+            "S2"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Die Buslinie 840 fährt heute ab 19:30 Uhr nicht mehr bis Torfhaus, son",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "stops_not_served",
+          "lines": [
+            "840"
+          ],
+          "stops": [
+            "Torfhaus"
+          ],
+          "times": [
+            "19:30",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Train RE 10 cancelled between Vienenburg and Braunschweig Hbf from 05:",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            "05:00",
+            "07:00"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Kein Handlungsbedarf: Linie 11 verkehrt wegen Personalmangels heute im",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "reduced_availability",
+          "lines": [
+            "11"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Rufbus Goslar: Wegen hoher Nachfrage sind aktuell keine Buchungen mögl",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Gesperrt: Linie 830 zwischen Hahnenklee Kurhaus und Clausthal-Zellerfe",
+          "method": "llm",
+          "answered_by": "qwen/qwen3-30b-a3b-instruct-2507",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [
+            "Hahnenklee Kurhaus",
+            "Clausthal-Zellerfeld ZOB"
+          ],
+          "times": [
+            "22:00",
+            "04:30"
+          ],
+          "fully_correct": true
+        }
+      ]
+    },
+    {
+      "system": "openai/gpt-oss-120b",
+      "reports": 30,
+      "quota_exhausted": false,
+      "success_ratio": 0.767,
+      "fully_correct": 0.467,
+      "lines": {
+        "precision": 0.952,
+        "recall": 0.741,
+        "f1": 0.833
+      },
+      "stops": {
+        "precision": 0.875,
+        "recall": 0.636,
+        "f1": 0.737
+      },
+      "effect_acc": 0.633,
+      "time_acc": 0.8,
+      "latency_p50_s": 6.9,
+      "cases": [
+        {
+          "text": "Die Buslinie 810 zwischen Goslar Bahnhof und Bad Harzburg Bahnhof fäll",
+          "method": "error",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 840: Aufgrund von Schneeglätte entfallen alle Fahrten zwischen T",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "suspended",
+          "lines": [
+            "840"
+          ],
+          "stops": [
+            "Torfhaus",
+            "Altenau Busbahnhof"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "RE 10 Goslar – Braunschweig: Verspätungen von bis zu 20 Minuten wegen ",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "delayed",
+          "lines": [
+            "10"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Due to construction work, the stop 'Goslar Rathaus' will not be served",
+          "method": "error",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bahnhof Langelsheim ist wegen eines Polizeieinsatzes ab sofort gesperr",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "station_closed",
+          "lines": [
+            "RB 43"
+          ],
+          "stops": [
+            "Langelsheim"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Streik bei der Regionalbus Braunschweig GmbH: Am Donnerstag verkehren ",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "suspended",
+          "lines": [
+            "810",
+            "830",
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Kurzfristiger Fahrzeugausfall: Die Fahrt der Linie 830 um 07:30 ab Gos",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [
+            "Goslar Bahnhof"
+          ],
+          "times": [
+            "07:30",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Nextbike Goslar: Wegen eines Softwareupdates können zwischen 22:00 und",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "suspended",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "22:00",
+            "23:30"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "The on-demand shuttle in the Harz Nord zone is fully booked until 09:0",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            "09:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "S1 Richtung Hannover: Wegen eines Notarzteinsatzes am Gleis halten die",
+          "method": "error",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bus 11 wird wegen des Altstadtfestes vom 12.06. bis 14.06. umgeleitet.",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "stops_not_served",
+          "lines": [
+            "11"
+          ],
+          "stops": [
+            "Goslar Marktplatz",
+            "Goslar Jakobikirchplatz"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Linie 830: Aufgrund hohen Verkehrsaufkommens kommt es derzeit zu Versp",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Achtung: Ab 21:00 Uhr bis Betriebsschluss ersetzen Busse die RB 43 zwi",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "suspended",
+          "lines": [
+            "RB 43"
+          ],
+          "stops": [],
+          "times": [
+            "21:00",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Wegen Bauarbeiten an der Brücke in Oker ist die Haltestelle Oker Bahnh",
+          "method": "error",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Störung behoben: Die Linie 840 verkehrt wieder planmäßig.",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Aufzug am Gleis 2 in Goslar Bahnhof außer Betrieb bis 30.11.",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "other",
+          "lines": [],
+          "stops": [
+            "Goslar Bahnhof"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Unwetterwarnung: Der gesamte Busverkehr im Landkreis Goslar wird ab 16",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "suspended",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "16:00",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "RE 10: Zug 7:42 ab Vienenburg fällt aus. Nächste Verbindung 8:42.",
+          "method": "error",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 810 und 830: Wegen einer Demonstration in der Goslarer Innenstad",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "stops_not_served",
+          "lines": [
+            "810",
+            "830"
+          ],
+          "stops": [
+            "Goslar Marktplatz"
+          ],
+          "times": [
+            "13:00",
+            "15:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "E-Scooter: Aufgrund von Sturmböen sind alle Tier-Scooter in Clausthal-",
+          "method": "error",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Clausthal-Zellerfeld ZOB: Wegen einer Bombenentschärfung wird der ZOB ",
+          "method": "error",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Line 830 is running with a 15-minute delay because of a broken-down ve",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Wegen Gleisarbeiten verkehrt die RB 43 am Wochenende nur zwischen Gosl",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "stops_not_served",
+          "lines": [
+            "RB 43"
+          ],
+          "stops": [
+            "Langelsheim",
+            "Salzgitter-Bad"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bitte beachten: Die Haltestelle Hahnenklee Kurhaus wird dauerhaft verl",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [
+            "Hahnenklee Kurhaus"
+          ],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Massive Verspätungen im Knoten Braunschweig: RE1, RE30 und S2 bis zu 4",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "delayed",
+          "lines": [
+            "RE1",
+            "RE30",
+            "S2"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Die Buslinie 840 fährt heute ab 19:30 Uhr nicht mehr bis Torfhaus, son",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "stops_not_served",
+          "lines": [
+            "840"
+          ],
+          "stops": [
+            "Torfhaus"
+          ],
+          "times": [
+            "19:30",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Train RE 10 cancelled between Vienenburg and Braunschweig Hbf from 05:",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [
+            "Vienenburg",
+            "Braunschweig Hbf"
+          ],
+          "times": [
+            "05:00",
+            "07:00"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Kein Handlungsbedarf: Linie 11 verkehrt wegen Personalmangels heute im",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "reduced_availability",
+          "lines": [
+            "11"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Rufbus Goslar: Wegen hoher Nachfrage sind aktuell keine Buchungen mögl",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Gesperrt: Linie 830 zwischen Hahnenklee Kurhaus und Clausthal-Zellerfe",
+          "method": "llm",
+          "answered_by": "openai/gpt-oss-120b",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [
+            "Hahnenklee Kurhaus",
+            "Clausthal-Zellerfeld ZOB"
+          ],
+          "times": [
+            "22:00",
+            "04:30"
+          ],
+          "fully_correct": true
+        }
+      ]
+    },
+    {
+      "system": "rules",
+      "reports": 30,
+      "quota_exhausted": false,
+      "success_ratio": null,
+      "fully_correct": 0.3,
+      "lines": {
+        "precision": 1.0,
+        "recall": 0.963,
+        "f1": 0.981
+      },
+      "stops": {
+        "precision": 0.5,
+        "recall": 0.045,
+        "f1": 0.083
+      },
+      "effect_acc": 0.633,
+      "time_acc": 0.9,
+      "latency_p50_s": null,
+      "cases": [
+        {
+          "text": "Die Buslinie 810 zwischen Goslar Bahnhof und Bad Harzburg Bahnhof fäll",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "suspended",
+          "lines": [
+            "810"
+          ],
+          "stops": [],
+          "times": [
+            "06:00",
+            "09:30"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 840: Aufgrund von Schneeglätte entfallen alle Fahrten zwischen T",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "suspended",
+          "lines": [
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "RE 10 Goslar – Braunschweig: Verspätungen von bis zu 20 Minuten wegen ",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "delayed",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Due to construction work, the stop 'Goslar Rathaus' will not be served",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "stops_not_served",
+          "lines": [
+            "11"
+          ],
+          "stops": [
+            "Goslar Rathaus",
+            "Goslar Marktplatz"
+          ],
+          "times": [
+            "08:00",
+            "17:00"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bahnhof Langelsheim ist wegen eines Polizeieinsatzes ab sofort gesperr",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "suspended",
+          "lines": [
+            "RB43"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Streik bei der Regionalbus Braunschweig GmbH: Am Donnerstag verkehren ",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "810",
+            "830",
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Kurzfristiger Fahrzeugausfall: Die Fahrt der Linie 830 um 07:30 ab Gos",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            "07:30",
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Nextbike Goslar: Wegen eines Softwareupdates können zwischen 22:00 und",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "22:00",
+            "23:30"
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "The on-demand shuttle in the Harz Nord zone is fully booked until 09:0",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            "09:00"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "S1 Richtung Hannover: Wegen eines Notarzteinsatzes am Gleis halten die",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "S1"
+          ],
+          "stops": [],
+          "times": [
+            "10:15",
+            "11:00"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bus 11 wird wegen des Altstadtfestes vom 12.06. bis 14.06. umgeleitet.",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "stops_not_served",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 830: Aufgrund hohen Verkehrsaufkommens kommt es derzeit zu Versp",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Achtung: Ab 21:00 Uhr bis Betriebsschluss ersetzen Busse die RB 43 zwi",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "RB43"
+          ],
+          "stops": [],
+          "times": [
+            "21:00",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Wegen Bauarbeiten an der Brücke in Oker ist die Haltestelle Oker Bahnh",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "810"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Störung behoben: Die Linie 840 verkehrt wieder planmäßig.",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Aufzug am Gleis 2 in Goslar Bahnhof außer Betrieb bis 30.11.",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Unwetterwarnung: Der gesamte Busverkehr im Landkreis Goslar wird ab 16",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "16:00",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "RE 10: Zug 7:42 ab Vienenburg fällt aus. Nächste Verbindung 8:42.",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            "07:42",
+            "08:42"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Linie 810 und 830: Wegen einer Demonstration in der Goslarer Innenstad",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "810",
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "E-Scooter: Aufgrund von Sturmböen sind alle Tier-Scooter in Clausthal-",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "reduced_availability",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Clausthal-Zellerfeld ZOB: Wegen einer Bombenentschärfung wird der ZOB ",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "station_closed",
+          "lines": [],
+          "stops": [],
+          "times": [
+            "09:00",
+            "12:30"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Line 830 is running with a 15-minute delay because of a broken-down ve",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "delayed",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Wegen Gleisarbeiten verkehrt die RB 43 am Wochenende nur zwischen Gosl",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "RB43"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Bitte beachten: Die Haltestelle Hahnenklee Kurhaus wird dauerhaft verl",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Massive Verspätungen im Knoten Braunschweig: RE1, RE30 und S2 bis zu 4",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "delayed",
+          "lines": [
+            "RE1",
+            "RE30",
+            "S2"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Die Buslinie 840 fährt heute ab 19:30 Uhr nicht mehr bis Torfhaus, son",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "840"
+          ],
+          "stops": [],
+          "times": [
+            "19:30",
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Train RE 10 cancelled between Vienenburg and Braunschweig Hbf from 05:",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "suspended",
+          "lines": [
+            "RE10"
+          ],
+          "stops": [],
+          "times": [
+            "05:00",
+            "07:00"
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Kein Handlungsbedarf: Linie 11 verkehrt wegen Personalmangels heute im",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [
+            "11"
+          ],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": true
+        },
+        {
+          "text": "Rufbus Goslar: Wegen hoher Nachfrage sind aktuell keine Buchungen mögl",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "other",
+          "lines": [],
+          "stops": [],
+          "times": [
+            null,
+            null
+          ],
+          "fully_correct": false
+        },
+        {
+          "text": "Gesperrt: Linie 830 zwischen Hahnenklee Kurhaus und Clausthal-Zellerfe",
+          "method": "rules",
+          "answered_by": "rules",
+          "effect": "suspended",
+          "lines": [
+            "830"
+          ],
+          "stops": [],
+          "times": [
+            "22:00",
+            "04:30"
+          ],
+          "fully_correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+route_id,service_id,trip_id,trip_headsign,direction_id
+r830,daily,r830_0_000,Clausthal Universität,0
+r830,daily,r830_0_001,Clausthal Universität,0
+r830,daily,r830_0_002,Clausthal Universität,0
+r830,daily,r830_0_003,Clausthal Universität,0
+r830,daily,r830_0_004,Clausthal Universität,0
+r830,daily,r830_0_005,Clausthal Universität,0
+r830,daily,r830_0_006,Clausthal Universität,0
+r830,daily,r830_0_007,Clausthal Universität,0
+r830,daily,r830_0_008,Clausthal Universität,0
+r830,daily,r830_0_009,Clausthal Universität,0
+r830,daily,r830_0_010,Clausthal Universität,0
+r830,daily,r830_0_011,Clausthal Universität,0
+r830,daily,r830_0_012,Clausthal Universität,0
+r830,daily,r830_0_013,Clausthal Universität,0
+r830,daily,r830_0_014,Clausthal Universität,0
+r830,daily,r830_0_015,Clausthal Universität,0
+r830,daily,r830_0_016,Clausthal Universität,0
+r830,daily,r830_0_017,Clausthal Universität,0
+r830,daily,r830_0_018,Clausthal Universität,0
+r830,daily,r830_0_019,Clausthal Universität,0
+r830,daily,r830_0_020,Clausthal Universität,0
+r830,daily,r830_0_021,Clausthal Universität,0
+r830,daily,r830_0_022,Clausthal Universität,0
+r830,daily,r830_0_023,Clausthal Universität,0
+r830,daily,r830_0_024,Clausthal Universität,0
+r830,daily,r830_0_025,Clausthal Universität,0
+r830,daily,r830_0_026,Clausthal Universität,0
+r830,daily,r830_0_027,Clausthal Universität,0
+r830,daily,r830_0_028,Clausthal Universität,0
+r830,daily,r830_0_029,Clausthal Universität,0
+r830,daily,r830_0_030,Clausthal Universität,0
+r830,daily,r830_0_031,Clausthal Universität,0
+r830,daily,r830_1_000,Goslar Bahnhof,1
+r830,daily,r830_1_001,Goslar Bahnhof,1
+r830,daily,r830_1_002,Goslar Bahnhof,1
+r830,daily,r830_1_003,Goslar Bahnhof,1
+r830,daily,r830_1_004,Goslar Bahnhof,1
+r830,daily,r830_1_005,Goslar Bahnhof,1
+r830,daily,r830_1_006,Goslar Bahnhof,1
+r830,daily,r830_1_007,Goslar Bahnhof,1
+r830,daily,r830_1_008,Goslar Bahnhof,1
+r830,daily,r830_1_009,Goslar Bahnhof,1
+r830,daily,r830_1_010,Goslar Bahnhof,1
+r830,daily,r830_1_011,Goslar Bahnhof,1
+r830,daily,r830_1_012,Goslar Bahnhof,1
+r830,daily,r830_1_013,Goslar Bahnhof,1
+r830,daily,r830_1_014,Goslar Bahnhof,1
+r830,daily,r830_1_015,Goslar Bahnhof,1
+r830,daily,r830_1_016,Goslar Bahnhof,1
+r830,daily,r830_1_017,Goslar Bahnhof,1
+r830,daily,r830_1_018,Goslar Bahnhof,1
+r830,daily,r830_1_019,Goslar Bahnhof,1
+r830,daily,r830_1_020,Goslar Bahnhof,1
+r830,daily,r830_1_021,Goslar Bahnhof,1
+r830,daily,r830_1_022,Goslar Bahnhof,1
+r830,daily,r830_1_023,Goslar Bahnhof,1
+r830,daily,r830_1_024,Goslar Bahnhof,1
+r830,daily,r830_1_025,Goslar Bahnhof,1
+r830,daily,r830_1_026,Goslar Bahnhof,1
+r830,daily,r830_1_027,Goslar Bahnhof,1
+r830,daily,r830_1_028,Goslar Bahnhof,1
+r830,daily,r830_1_029,Goslar Bahnhof,1
+r830,daily,r830_1_030,Goslar Bahnhof,1
+r810,daily,r810_0_000,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_001,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_002,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_003,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_004,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_005,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_006,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_007,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_008,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_009,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_010,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_011,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_012,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_013,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_014,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_015,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_016,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_017,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_018,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_019,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_020,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_021,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_022,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_023,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_024,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_025,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_026,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_027,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_028,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_029,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_030,Bad Harzburg Bahnhof,0
+r810,daily,r810_0_031,Bad Harzburg Bahnhof,0
+r810,daily,r810_1_000,Goslar Bahnhof,1
+r810,daily,r810_1_001,Goslar Bahnhof,1
+r810,daily,r810_1_002,Goslar Bahnhof,1
+r810,daily,r810_1_003,Goslar Bahnhof,1
+r810,daily,r810_1_004,Goslar Bahnhof,1
+r810,daily,r810_1_005,Goslar Bahnhof,1
+r810,daily,r810_1_006,Goslar Bahnhof,1
+r810,daily,r810_1_007,Goslar Bahnhof,1
+r810,daily,r810_1_008,Goslar Bahnhof,1
+r810,daily,r810_1_009,Goslar Bahnhof,1
+r810,daily,r810_1_010,Goslar Bahnhof,1
+r810,daily,r810_1_011,Goslar Bahnhof,1
+r810,daily,r810_1_012,Goslar Bahnhof,1
+r810,daily,r810_1_013,Goslar Bahnhof,1
+r810,daily,r810_1_014,Goslar Bahnhof,1
+r810,daily,r810_1_015,Goslar Bahnhof,1
+r810,daily,r810_1_016,Goslar Bahnhof,1
+r810,daily,r810_1_017,Goslar Bahnhof,1
+r810,daily,r810_1_018,Goslar Bahnhof,1
+r810,daily,r810_1_019,Goslar Bahnhof,1
+r810,daily,r810_1_020,Goslar Bahnhof,1
+r810,daily,r810_1_021,Goslar Bahnhof,1
+r810,daily,r810_1_022,Goslar Bahnhof,1
+r810,daily,r810_1_023,Goslar Bahnhof,1
+r810,daily,r810_1_024,Goslar Bahnhof,1
+r810,daily,r810_1_025,Goslar Bahnhof,1
+r810,daily,r810_1_026,Goslar Bahnhof,1
+r810,daily,r810_1_027,Goslar Bahnhof,1
+r810,daily,r810_1_028,Goslar Bahnhof,1
+r810,daily,r810_1_029,Goslar Bahnhof,1
+r810,daily,r810_1_030,Goslar Bahnhof,1
+r810,daily,r810_1_031,Goslar Bahnhof,1
+r840,daily,r840_0_000,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_001,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_002,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_003,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_004,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_005,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_006,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_007,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_008,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_009,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_010,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_011,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_012,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_013,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_0_014,Clausthal-Zellerfeld ZOB,0
+r840,daily,r840_1_000,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_001,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_002,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_003,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_004,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_005,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_006,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_007,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_008,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_009,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_010,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_011,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_012,Bad Harzburg Bahnhof,1
+r840,daily,r840_1_013,Bad Harzburg Bahnhof,1
+r11,daily,r11_0_000,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_001,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_002,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_003,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_004,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_005,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_006,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_007,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_008,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_009,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_010,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_011,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_012,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_013,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_014,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_015,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_016,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_017,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_018,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_019,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_020,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_021,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_022,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_023,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_024,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_025,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_026,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_027,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_028,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_029,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_030,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_031,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_032,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_033,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_034,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_035,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_036,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_037,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_038,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_039,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_040,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_041,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_042,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_043,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_044,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_045,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_046,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_047,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_048,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_049,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_050,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_051,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_052,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_053,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_054,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_055,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_056,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_057,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_058,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_059,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_060,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_061,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_062,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_063,Goslar Jakobikirchplatz,0
+r11,daily,r11_0_064,Goslar Jakobikirchplatz,0
+r11,daily,r11_1_000,Goslar Bahnhof,1
+r11,daily,r11_1_001,Goslar Bahnhof,1
+r11,daily,r11_1_002,Goslar Bahnhof,1
+r11,daily,r11_1_003,Goslar Bahnhof,1
+r11,daily,r11_1_004,Goslar Bahnhof,1
+r11,daily,r11_1_005,Goslar Bahnhof,1
+r11,daily,r11_1_006,Goslar Bahnhof,1
+r11,daily,r11_1_007,Goslar Bahnhof,1
+r11,daily,r11_1_008,Goslar Bahnhof,1
+r11,daily,r11_1_009,Goslar Bahnhof,1
+r11,daily,r11_1_010,Goslar Bahnhof,1
+r11,daily,r11_1_011,Goslar Bahnhof,1
+r11,daily,r11_1_012,Goslar Bahnhof,1
+r11,daily,r11_1_013,Goslar Bahnhof,1
+r11,daily,r11_1_014,Goslar Bahnhof,1
+r11,daily,r11_1_015,Goslar Bahnhof,1
+r11,daily,r11_1_016,Goslar Bahnhof,1
+r11,daily,r11_1_017,Goslar Bahnhof,1
+r11,daily,r11_1_018,Goslar Bahnhof,1
+r11,daily,r11_1_019,Goslar Bahnhof,1
+r11,daily,r11_1_020,Goslar Bahnhof,1
+r11,daily,r11_1_021,Goslar Bahnhof,1
+r11,daily,r11_1_022,Goslar Bahnhof,1
+r11,daily,r11_1_023,Goslar Bahnhof,1
+r11,daily,r11_1_024,Goslar Bahnhof,1
+r11,daily,r11_1_025,Goslar Bahnhof,1
+r11,daily,r11_1_026,Goslar Bahnhof,1
+r11,daily,r11_1_027,Goslar Bahnhof,1
+r11,daily,r11_1_028,Goslar Bahnhof,1
+r11,daily,r11_1_029,Goslar Bahnhof,1
+r11,daily,r11_1_030,Goslar Bahnhof,1
+r11,daily,r11_1_031,Goslar Bahnhof,1
+r11,daily,r11_1_032,Goslar Bahnhof,1
+r11,daily,r11_1_033,Goslar Bahnhof,1
+r11,daily,r11_1_034,Goslar Bahnhof,1
+r11,daily,r11_1_035,Goslar Bahnhof,1
+r11,daily,r11_1_036,Goslar Bahnhof,1
+r11,daily,r11_1_037,Goslar Bahnhof,1
+r11,daily,r11_1_038,Goslar Bahnhof,1
+r11,daily,r11_1_039,Goslar Bahnhof,1
+r11,daily,r11_1_040,Goslar Bahnhof,1
+r11,daily,r11_1_041,Goslar Bahnhof,1
+r11,daily,r11_1_042,Goslar Bahnhof,1
+r11,daily,r11_1_043,Goslar Bahnhof,1
+r11,daily,r11_1_044,Goslar Bahnhof,1
+r11,daily,r11_1_045,Goslar Bahnhof,1
+r11,daily,r11_1_046,Goslar Bahnhof,1
+r11,daily,r11_1_047,Goslar Bahnhof,1
+r11,daily,r11_1_048,Goslar Bahnhof,1
+r11,daily,r11_1_049,Goslar Bahnhof,1
+r11,daily,r11_1_050,Goslar Bahnhof,1
+r11,daily,r11_1_051,Goslar Bahnhof,1
+r11,daily,r11_1_052,Goslar Bahnhof,1
+r11,daily,r11_1_053,Goslar Bahnhof,1
+r11,daily,r11_1_054,Goslar Bahnhof,1
+r11,daily,r11_1_055,Goslar Bahnhof,1
+r11,daily,r11_1_056,Goslar Bahnhof,1
+r11,daily,r11_1_057,Goslar Bahnhof,1
+r11,daily,r11_1_058,Goslar Bahnhof,1
+r11,daily,r11_1_059,Goslar Bahnhof,1
+r11,daily,r11_1_060,Goslar Bahnhof,1
+r11,daily,r11_1_061,Goslar Bahnhof,1
+r11,daily,r11_1_062,Goslar Bahnhof,1
+r11,daily,r11_1_063,Goslar Bahnhof,1
+rRE10,daily,rRE10_0_000,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_001,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_002,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_003,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_004,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_005,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_006,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_007,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_008,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_009,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_010,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_011,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_012,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_013,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_014,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_015,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_016,Braunschweig Hbf,0
+rRE10,daily,rRE10_0_017,Braunschweig Hbf,0
+rRE10,daily,rRE10_1_000,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_001,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_002,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_003,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_004,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_005,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_006,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_007,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_008,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_009,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_010,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_011,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_012,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_013,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_014,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_015,Goslar Bahnhof,1
+rRE10,daily,rRE10_1_016,Goslar Bahnhof,1
+rRB43,daily,rRB43_0_000,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_001,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_002,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_003,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_004,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_005,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_006,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_007,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_008,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_009,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_010,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_011,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_012,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_013,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_014,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_015,Salzgitter-Bad,0
+rRB43,daily,rRB43_0_016,Salzgitter-Bad,0
+rRB43,daily,rRB43_1_000,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_001,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_002,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_003,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_004,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_005,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_006,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_007,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_008,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_009,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_010,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_011,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_012,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_013,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_014,Goslar Bahnhof,1
+rRB43,daily,rRB43_1_015,Goslar Bahnhof,1

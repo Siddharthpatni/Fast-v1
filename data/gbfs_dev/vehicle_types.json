@@ -1,0 +1,26 @@
+{
+  "last_updated": 1790800000,
+  "ttl": 60,
+  "version": "2.3",
+  "data": {
+    "vehicle_types": [
+      {
+        "vehicle_type_id": "bike",
+        "form_factor": "bicycle",
+        "propulsion_type": "human"
+      },
+      {
+        "vehicle_type_id": "escooter",
+        "form_factor": "scooter_standing",
+        "propulsion_type": "electric",
+        "max_range_meters": 30000
+      },
+      {
+        "vehicle_type_id": "car",
+        "form_factor": "car",
+        "propulsion_type": "combustion",
+        "max_range_meters": 400000
+      }
+    ]
+  }
+}

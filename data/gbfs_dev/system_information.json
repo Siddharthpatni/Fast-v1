@@ -1,0 +1,11 @@
+{
+  "last_updated": 1790800000,
+  "ttl": 60,
+  "version": "2.3",
+  "data": {
+    "system_id": "fastmile_dev",
+    "language": "en",
+    "name": "FastMile Dev Sharing",
+    "timezone": "Europe/Berlin"
+  }
+}

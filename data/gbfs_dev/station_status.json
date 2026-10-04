@@ -1,0 +1,82 @@
+{
+  "last_updated": 1790800000,
+  "ttl": 60,
+  "version": "2.3",
+  "data": {
+    "stations": [
+      {
+        "station_id": "st_gs_bf",
+        "is_renting": true,
+        "is_returning": true,
+        "last_reported": 1790800000,
+        "num_bikes_available": 7,
+        "vehicle_types_available": [
+          {
+            "vehicle_type_id": "bike",
+            "count": 6
+          },
+          {
+            "vehicle_type_id": "car",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "station_id": "st_gs_markt",
+        "is_renting": true,
+        "is_returning": true,
+        "last_reported": 1790800000,
+        "num_bikes_available": 3,
+        "vehicle_types_available": [
+          {
+            "vehicle_type_id": "bike",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "station_id": "st_bh_bf",
+        "is_renting": true,
+        "is_returning": true,
+        "last_reported": 1790800000,
+        "num_bikes_available": 2,
+        "vehicle_types_available": [
+          {
+            "vehicle_type_id": "bike",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "station_id": "st_cz_zob",
+        "is_renting": true,
+        "is_returning": true,
+        "last_reported": 1790800000,
+        "num_bikes_available": 5,
+        "vehicle_types_available": [
+          {
+            "vehicle_type_id": "bike",
+            "count": 4
+          },
+          {
+            "vehicle_type_id": "car",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "station_id": "st_cz_uni",
+        "is_renting": true,
+        "is_returning": true,
+        "last_reported": 1790800000,
+        "num_bikes_available": 5,
+        "vehicle_types_available": [
+          {
+            "vehicle_type_id": "bike",
+            "count": 5
+          }
+        ]
+      }
+    ]
+  }
+}

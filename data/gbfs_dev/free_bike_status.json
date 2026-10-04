@@ -1,0 +1,54 @@
+{
+  "last_updated": 1790800000,
+  "ttl": 60,
+  "version": "2.3",
+  "data": {
+    "bikes": [
+      {
+        "bike_id": "sc1",
+        "lat": 51.9065,
+        "lon": 10.431,
+        "is_reserved": false,
+        "is_disabled": false,
+        "vehicle_type_id": "escooter",
+        "current_range_meters": 18000
+      },
+      {
+        "bike_id": "sc2",
+        "lat": 51.904,
+        "lon": 10.425,
+        "is_reserved": false,
+        "is_disabled": false,
+        "vehicle_type_id": "escooter",
+        "current_range_meters": 18000
+      },
+      {
+        "bike_id": "sc3",
+        "lat": 51.91,
+        "lon": 10.433,
+        "is_reserved": false,
+        "is_disabled": false,
+        "vehicle_type_id": "escooter",
+        "current_range_meters": 18000
+      },
+      {
+        "bike_id": "sc4",
+        "lat": 51.809,
+        "lon": 10.34,
+        "is_reserved": false,
+        "is_disabled": false,
+        "vehicle_type_id": "escooter",
+        "current_range_meters": 18000
+      },
+      {
+        "bike_id": "sc5",
+        "lat": 51.806,
+        "lon": 10.335,
+        "is_reserved": false,
+        "is_disabled": false,
+        "vehicle_type_id": "escooter",
+        "current_range_meters": 18000
+      }
+    ]
+  }
+}

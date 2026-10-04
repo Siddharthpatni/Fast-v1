@@ -1,0 +1,388 @@
+[
+  {
+    "text": "Die Buslinie 810 zwischen Goslar Bahnhof und Bad Harzburg Bahnhof fällt heute von 06:00 bis 09:30 Uhr wegen eines Wasserrohrbruchs aus.",
+    "source": "KVG Störungsmeldung",
+    "expected_affected_lines": [
+      "810"
+    ],
+    "expected_affected_stops": [
+      "Goslar Bahnhof",
+      "Bad Harzburg Bahnhof"
+    ],
+    "expected_effect": "suspended",
+    "expected_start": "06:00",
+    "expected_end": "09:30",
+    "expected_severity": "high"
+  },
+  {
+    "text": "Linie 840: Aufgrund von Schneeglätte entfallen alle Fahrten zwischen Torfhaus und Altenau Busbahnhof bis auf Weiteres.",
+    "source": "KVG Störungsmeldung",
+    "expected_affected_lines": [
+      "840"
+    ],
+    "expected_affected_stops": [
+      "Torfhaus",
+      "Altenau Busbahnhof"
+    ],
+    "expected_effect": "suspended",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "high"
+  },
+  {
+    "text": "RE 10 Goslar – Braunschweig: Verspätungen von bis zu 20 Minuten wegen einer Signalstörung in Vienenburg.",
+    "source": "DB Störungsticker",
+    "expected_affected_lines": [
+      "RE10"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "delayed",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Due to construction work, the stop 'Goslar Rathaus' will not be served by line 11 from 08:00 to 17:00. Please use 'Goslar Marktplatz' instead.",
+    "source": "Transit Alert Feed",
+    "expected_affected_lines": [
+      "11"
+    ],
+    "expected_affected_stops": [
+      "Goslar Rathaus"
+    ],
+    "expected_effect": "stops_not_served",
+    "expected_start": "08:00",
+    "expected_end": "17:00",
+    "expected_severity": "low"
+  },
+  {
+    "text": "Bahnhof Langelsheim ist wegen eines Polizeieinsatzes ab sofort gesperrt. Züge der RB 43 fahren ohne Halt durch.",
+    "source": "DB Störungsticker",
+    "expected_affected_lines": [
+      "RB43"
+    ],
+    "expected_affected_stops": [
+      "Langelsheim Bahnhof"
+    ],
+    "expected_effect": "station_closed",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Streik bei der Regionalbus Braunschweig GmbH: Am Donnerstag verkehren die Linien 810, 830 und 840 nicht.",
+    "source": "RBB Pressemitteilung",
+    "expected_affected_lines": [
+      "810",
+      "830",
+      "840"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "suspended",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "high"
+  },
+  {
+    "text": "Kurzfristiger Fahrzeugausfall: Die Fahrt der Linie 830 um 07:30 ab Goslar Bahnhof entfällt.",
+    "source": "KVG Echtzeit",
+    "expected_affected_lines": [
+      "830"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "suspended",
+    "expected_start": "07:30",
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Nextbike Goslar: Wegen eines Softwareupdates können zwischen 22:00 und 23:30 Uhr keine Räder ausgeliehen werden.",
+    "source": "Nextbike",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [],
+    "expected_effect": "reduced_availability",
+    "expected_start": "22:00",
+    "expected_end": "23:30",
+    "expected_severity": "low"
+  },
+  {
+    "text": "The on-demand shuttle in the Harz Nord zone is fully booked until 09:00; expect waits of more than 40 minutes.",
+    "source": "On-Demand Operator",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [],
+    "expected_effect": "reduced_availability",
+    "expected_start": null,
+    "expected_end": "09:00",
+    "expected_severity": "medium"
+  },
+  {
+    "text": "S1 Richtung Hannover: Wegen eines Notarzteinsatzes am Gleis halten die Züge zwischen 10:15 und 11:00 Uhr nicht in Braunschweig Hbf.",
+    "source": "S-Bahn Betriebslage",
+    "expected_affected_lines": [
+      "S1"
+    ],
+    "expected_affected_stops": [
+      "Braunschweig Hbf"
+    ],
+    "expected_effect": "stops_not_served",
+    "expected_start": "10:15",
+    "expected_end": "11:00",
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Bus 11 wird wegen des Altstadtfestes vom 12.06. bis 14.06. umgeleitet. Die Haltestellen Goslar Marktplatz und Goslar Jakobikirchplatz entfallen.",
+    "source": "Stadtverkehr Goslar",
+    "expected_affected_lines": [
+      "11"
+    ],
+    "expected_affected_stops": [
+      "Goslar Marktplatz",
+      "Goslar Jakobikirchplatz"
+    ],
+    "expected_effect": "stops_not_served",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Linie 830: Aufgrund hohen Verkehrsaufkommens kommt es derzeit zu Verspätungen von ca. 10 Minuten.",
+    "source": "KVG Echtzeit",
+    "expected_affected_lines": [
+      "830"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "delayed",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "low"
+  },
+  {
+    "text": "Achtung: Ab 21:00 Uhr bis Betriebsschluss ersetzen Busse die RB 43 zwischen Goslar und Salzgitter-Bad (Schienenersatzverkehr).",
+    "source": "DB Bauinfo",
+    "expected_affected_lines": [
+      "RB43"
+    ],
+    "expected_affected_stops": [
+      "Goslar Bahnhof",
+      "Salzgitter-Bad"
+    ],
+    "expected_effect": "suspended",
+    "expected_start": "21:00",
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Wegen Bauarbeiten an der Brücke in Oker ist die Haltestelle Oker Bahnhof vom 3. bis 7. November nicht erreichbar. Die Linie 810 hält ersatzweise an der Ersatzhaltestelle Oker Mitte.",
+    "source": "KVG Bauinfo",
+    "expected_affected_lines": [
+      "810"
+    ],
+    "expected_affected_stops": [
+      "Oker Bahnhof"
+    ],
+    "expected_effect": "stops_not_served",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Störung behoben: Die Linie 840 verkehrt wieder planmäßig.",
+    "source": "KVG Echtzeit",
+    "expected_affected_lines": [
+      "840"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "other",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "low"
+  },
+  {
+    "text": "Aufzug am Gleis 2 in Goslar Bahnhof außer Betrieb bis 30.11.",
+    "source": "DB Station&Service",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [],
+    "expected_effect": "other",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "low"
+  },
+  {
+    "text": "Unwetterwarnung: Der gesamte Busverkehr im Landkreis Goslar wird ab 16:00 Uhr eingestellt.",
+    "source": "Landkreis Goslar",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [],
+    "expected_effect": "suspended",
+    "expected_start": "16:00",
+    "expected_end": null,
+    "expected_severity": "high"
+  },
+  {
+    "text": "RE 10: Zug 7:42 ab Vienenburg fällt aus. Nächste Verbindung 8:42.",
+    "source": "DB Störungsticker",
+    "expected_affected_lines": [
+      "RE10"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "suspended",
+    "expected_start": "07:42",
+    "expected_end": null,
+    "expected_severity": "low"
+  },
+  {
+    "text": "Linie 810 und 830: Wegen einer Demonstration in der Goslarer Innenstadt wird Goslar Marktplatz zwischen 13 und 15 Uhr nicht angefahren.",
+    "source": "KVG Störungsmeldung",
+    "expected_affected_lines": [
+      "810",
+      "830"
+    ],
+    "expected_affected_stops": [
+      "Goslar Marktplatz"
+    ],
+    "expected_effect": "stops_not_served",
+    "expected_start": "13:00",
+    "expected_end": "15:00",
+    "expected_severity": "medium"
+  },
+  {
+    "text": "E-Scooter: Aufgrund von Sturmböen sind alle Tier-Scooter in Clausthal-Zellerfeld heute ab 18 Uhr deaktiviert.",
+    "source": "Tier",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [],
+    "expected_effect": "reduced_availability",
+    "expected_start": "18:00",
+    "expected_end": null,
+    "expected_severity": "low"
+  },
+  {
+    "text": "Clausthal-Zellerfeld ZOB: Wegen einer Bombenentschärfung wird der ZOB von 09:00 bis ca. 12:30 Uhr vollständig gesperrt. Alle Linien halten an der Ersatzhaltestelle Clausthal Universität.",
+    "source": "Stadt Clausthal-Zellerfeld",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [
+      "Clausthal-Zellerfeld ZOB"
+    ],
+    "expected_effect": "station_closed",
+    "expected_start": "09:00",
+    "expected_end": "12:30",
+    "expected_severity": "high"
+  },
+  {
+    "text": "Line 830 is running with a 15-minute delay because of a broken-down vehicle near Hahnenklee.",
+    "source": "Transit Alert Feed",
+    "expected_affected_lines": [
+      "830"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "delayed",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Wegen Gleisarbeiten verkehrt die RB 43 am Wochenende nur zwischen Goslar und Langelsheim. Zwischen Langelsheim und Salzgitter-Bad fahren Ersatzbusse.",
+    "source": "DB Bauinfo",
+    "expected_affected_lines": [
+      "RB43"
+    ],
+    "expected_affected_stops": [
+      "Langelsheim Bahnhof",
+      "Salzgitter-Bad"
+    ],
+    "expected_effect": "suspended",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Bitte beachten: Die Haltestelle Hahnenklee Kurhaus wird dauerhaft verlegt und heißt ab 01.12. Hahnenklee Zentrum.",
+    "source": "KVG Fahrgastinfo",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [
+      "Hahnenklee Kurhaus"
+    ],
+    "expected_effect": "other",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "low"
+  },
+  {
+    "text": "Massive Verspätungen im Knoten Braunschweig: RE1, RE30 und S2 bis zu 45 Minuten später.",
+    "source": "DB Störungsticker",
+    "expected_affected_lines": [
+      "RE1",
+      "RE30",
+      "S2"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "delayed",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "high"
+  },
+  {
+    "text": "Die Buslinie 840 fährt heute ab 19:30 Uhr nicht mehr bis Torfhaus, sondern endet in Altenau Busbahnhof.",
+    "source": "KVG Echtzeit",
+    "expected_affected_lines": [
+      "840"
+    ],
+    "expected_affected_stops": [
+      "Torfhaus"
+    ],
+    "expected_effect": "stops_not_served",
+    "expected_start": "19:30",
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Train RE 10 cancelled between Vienenburg and Braunschweig Hbf from 05:00 to 07:00 due to overhead line damage.",
+    "source": "Transit Alert Feed",
+    "expected_affected_lines": [
+      "RE10"
+    ],
+    "expected_affected_stops": [
+      "Vienenburg Bahnhof",
+      "Braunschweig Hbf"
+    ],
+    "expected_effect": "suspended",
+    "expected_start": "05:00",
+    "expected_end": "07:00",
+    "expected_severity": "high"
+  },
+  {
+    "text": "Kein Handlungsbedarf: Linie 11 verkehrt wegen Personalmangels heute im 30-Minuten-Takt statt im 15-Minuten-Takt.",
+    "source": "Stadtverkehr Goslar",
+    "expected_affected_lines": [
+      "11"
+    ],
+    "expected_affected_stops": [],
+    "expected_effect": "other",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "low"
+  },
+  {
+    "text": "Rufbus Goslar: Wegen hoher Nachfrage sind aktuell keine Buchungen möglich (ca. 30 Min.).",
+    "source": "On-Demand Operator",
+    "expected_affected_lines": [],
+    "expected_affected_stops": [],
+    "expected_effect": "reduced_availability",
+    "expected_start": null,
+    "expected_end": null,
+    "expected_severity": "medium"
+  },
+  {
+    "text": "Gesperrt: Linie 830 zwischen Hahnenklee Kurhaus und Clausthal-Zellerfeld ZOB von 22:00 bis 04:30 Uhr (Nachtbaustelle).",
+    "source": "KVG Bauinfo",
+    "expected_affected_lines": [
+      "830"
+    ],
+    "expected_affected_stops": [
+      "Hahnenklee Kurhaus",
+      "Clausthal-Zellerfeld ZOB"
+    ],
+    "expected_effect": "suspended",
+    "expected_start": "22:00",
+    "expected_end": "04:30",
+    "expected_severity": "medium"
+  }
+]
